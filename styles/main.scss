@@ -1,0 +1,428 @@
+
+$maincolor:#24d6d6;
+$hovercolor :#08e7e7;
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar-brand{
+    img{
+        width: 40px;
+    }
+    
+}
+
+.btn-login{
+    border-radius: 15px;
+    background-color: $maincolor;
+    color : #ffffff;
+    width: 70px;
+    font-size: 12px;
+    font-weight: bold;
+    &:hover{
+        background-color: $hovercolor;
+        color : #ffffff;
+        width: 70px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+}
+.nav-link{
+    margin-right: 5px;
+    &:hover{
+        border-bottom: 3px solid $maincolor ;
+      
+    }
+   
+}
+
+
+
+header{
+    min-height: 650px;
+    padding: 200px 0px 165px;
+    background-image: url('../images/Banner.png');
+    background-size: cover;
+    
+    
+    .banner-txt{
+        color: #ffffff;
+        font-size: 40px;
+        margin-top: 40px;
+        font-weight: bold;
+       
+    }
+}
+
+
+
+
+
+
+.section-layanan{
+   
+    min-height: 1000px;
+    
+    .logo-about{
+            
+            margin-top: 100px;
+        }
+    
+    .text-layanan{
+        color: #000000  ;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 130px ;
+    }
+
+   
+}
+
+
+
+
+
+
+
+.section-layanan{
+    min-height: 700px;
+    .text-request{
+        text-align: center;
+        margin-top: 30px;
+        font-weight: normal;
+        margin-bottom: 30px;
+    }
+    
+    .card-request{
+        margin-top: 20px;
+        max-height: 300px;
+       
+        
+    }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+    font-size: 18px;
+    color: #b1b1b1;
+}
+
+
+
+
+
+
+ 
+ .input-person{
+     input{
+         width: 50px;
+         margin-left: 115px;
+     }
+     
+ }
+ 
+ .price{
+     margin-left: 150px;
+ }
+
+ .total-price{
+     h2{
+         font-size: 30px;
+     }
+ }
+
+ 
+// 
+
+  
+  .card-login{
+      margin-top: 80px;
+
+  }
+  .card-signin {
+      margin-top: 130px;
+    //   width: 400px;
+      min-height: 350px;
+      
+    .card-title {
+        margin-bottom: 2rem;
+        font-weight: 400;
+        font-size: 1.5rem;
+        color: $maincolor;
+      }
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+ 
+      img{
+        width: 50%;
+        
+      }
+      .form-signin {
+          ::placeholder{
+              font-size: 12px;
+              color: rgb(179, 179, 179);
+          }
+      .btn-register-login {
+          margin-top: 20px;
+          width: 200px;
+          color: white;
+          background-color: $maincolor;
+          font-size: 15px;
+          border-radius: 5rem;
+          letter-spacing: .1rem;
+          font-weight: bold;
+          
+          transition: all 0.2s;
+          
+        }
+    }
+
+    
+    .form-label-group {
+        justify-items: center;
+       
+      position: relative;
+      margin-bottom: 1rem;
+    }
+    
+    .form-label-group {
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: inset 0 -1px 0 #ddd;
+}
+      input {
+     border: none;
+     border-bottom:1px solid $maincolor ;
+      
+      width: 300px;
+      
+    //   border-radius: 2rem;
+    }
+  }
+    
+  }
+
+  
+ 
+  
+  
+ 
+a{
+    color: $maincolor;
+    &:hover{
+        color: $hovercolor;
+        text-decoration: none;
+    }
+}
+
+
+  
+
+  .card-register{
+      margin-top: 30px;
+  }
+.card-regist {
+    margin-top: 100px;
+  //   width: 400px;
+    min-height: 350px;
+    
+  .card-title {
+      margin-bottom: 2rem;
+      font-weight: 400;
+      font-size: 1.5rem;
+      color: $maincolor;
+    }
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+
+    img{
+      width: 50%;
+      
+    }
+    .form-register {
+        ::placeholder{
+            font-size: 12px;
+            color: rgb(179, 179, 179);
+        }
+    .btn-register-login {
+        margin-top: 20px;
+        width: 200px;
+        color: white;
+        background-color: $maincolor;
+        font-size: 15px;
+        border-radius: 5rem;
+        letter-spacing: .1rem;
+        font-weight: bold;
+        
+        transition: all 0.2s;
+        
+      }
+  }
+
+  
+  .form-label-group {
+      justify-items: center;
+     
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label-group {
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+box-shadow: inset 0 -1px 0 #ddd;
+}
+    input {
+   border: none;
+   border-bottom:1px solid $maincolor ;
+    
+    width: 300px;
+    
+  //   border-radius: 2rem;
+  }
+}
+  
+}
+
+.main-permintaan{
+    min-height: 700px;
+}
+
+.card-permintaan {
+    border-radius: 10px;
+    margin-top: 130px;
+  //   width: 400px;
+    
+  .card-title {
+      margin-bottom: 2rem;
+      font-weight: 400;
+      font-size: 1.5rem;
+     color: #000000;
+    }
+    .btn-permintaan{
+        font-weight: bold;
+        width: 150px;
+        border-radius: 10px;
+        color: white;
+        background-color: #FFDA77;
+    }
+  
+
+
+
+    .form-signin {
+        ::placeholder{
+            font-size: 12px;
+            color: rgb(179, 179, 179);
+        }
+    
+      }
+  }
+
+  
+  .form-label-group {
+      justify-items: center;
+     
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  .form-label-group {
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+box-shadow: inset 0 -1px 0 #ddd;
+}
+    input {
+   border: none;
+   border-bottom:1px solid $maincolor ;
+ 
+  //   border-radius: 2rem;
+  }
+}
+  
+.btn-dropdown{
+    width: 200px;
+}
+
+.borderless{
+   
+    th{
+    border: none;
+    }
+    td{
+    border: none;
+    }
+
+}
+
+.btn-pemeriksaan{
+    font-weight: bold;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: #FFDA77;
+    &:hover{
+        font-weight: bold;
+    width: 100px;
+    border-radius: 10px;
+    color: white;
+    background-color: #f5c74b; 
+    }
+}
+
+.card-pemeriksaan{
+    border-radius: 10px;
+}
+
+.main-pemeriksaan{
+    min-height: 1000px;
+}
